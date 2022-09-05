@@ -71,6 +71,7 @@ function Table (tabela:ITable){
         <table className="table">
   {/* 1º coluna */}
           <td  >
+          <tr className="linha">vago </tr>
             <tr className="linha"><img src={`img/${tabela.a1}.png`} className="img"/> </tr>
             <tr className="linha"><img src={`img/${tabela.a2}.png`} className="img"/> </tr>
             <tr className="linha"><img src={`img/${tabela.a3}.png`} className="img"/> </tr>
@@ -79,6 +80,7 @@ function Table (tabela:ITable){
           </td>
   {/* 2º coluna */}
           <td>
+            <tr className="linha">vago </tr>
             <tr className="linha"><img src={`img/${tabela.b1}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.b2}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.b3}.png`} className="img" /> </tr>
@@ -87,6 +89,7 @@ function Table (tabela:ITable){
           </td>
   {/* 3º coluna */}
           <td>
+           <tr className="linha">vago </tr>
             <tr className="linha"><img src={`img/${tabela.c1}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.c2}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.c3}.png`} className="img" /> </tr>
@@ -95,6 +98,7 @@ function Table (tabela:ITable){
           </td>
   {/* 4º coluna */}
           <td>
+             <tr className="linha">vago </tr>
             <tr className="linha"><img src={`img/${tabela.d1}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.d2}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.d3}.png`} className="img" /> </tr>
@@ -103,6 +107,7 @@ function Table (tabela:ITable){
           </td>
   {/* 5º coluna */}
           <td>
+            <tr className="linha">vago </tr>
             <tr className="linha"><img src={`img/${tabela.e1}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.e2}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.e3}.png`} className="img" /> </tr>
@@ -111,6 +116,7 @@ function Table (tabela:ITable){
           </td>
   {/* 6º coluna */}
           <td>
+            <tr className="linha">vago </tr>
             <tr className="linha"><img src={`img/${tabela.f1}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.f2}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.f3}.png`} className="img" /> </tr>
@@ -119,6 +125,7 @@ function Table (tabela:ITable){
           </td>
   {/* 1º coluna */}
           <td>
+            <tr className="linha">vago </tr>
             <tr className="linha"><img src={`img/${tabela.g1}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.g2}.png`} className="img" /> </tr>
             <tr className="linha"><img src={`img/${tabela.g3}.png`} className="img" /> </tr>

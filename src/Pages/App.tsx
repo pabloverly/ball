@@ -18,16 +18,16 @@ function App() {
         b4={'preto'}
         
 
-        c1={'c1'} 
-        c2={'c2'} 
-        c3={'c3'}
-        c4={'c4'}
+        c1={'cinza'} 
+        c2={'cinza'} 
+        c3={'cinza'}
+        c4={'cinza'}
        
 
-        d1={'d1'} 
-        d2={'d2'} 
-        d3={'d3'}
-        d4={'d4'}
+        d1={'amarelo'} 
+        d2={'amarelo'} 
+        d3={'amarelo'}
+        d4={'amarelo'}
         
 
         e1={'e1'} 

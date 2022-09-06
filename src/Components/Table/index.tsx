@@ -72,64 +72,64 @@ function Table (tabela:ITable){
   {/* 1º coluna */}
           <td  >
           <tr className="linha">vago </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.a1}.png`} className="img"  onClick={(e)=>(alert('teste'))}/>  </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.a2}.png`} className="img"/> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.a3}.png`} className="img"/> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.a4}.png`} className="img"/> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.a1}.png`} className="img" alt='Teste' onClick={(e)=>(alert('teste'))}/>  </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.a2}.png`} className="img" alt=''/> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.a3}.png`} className="img" alt=''/> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.a4}.png`} className="img" alt=''/> </tr>
            
           </td>
   {/* 2º coluna */}
           <td>
             <tr className="linha">vago </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.b1}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.b2}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.b3}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.b4}.png`} className="img" /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.b1}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.b2}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.b3}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.b4}.png`} className="img" alt='' /> </tr>
            
           </td>
   {/* 3º coluna */}
           <td>
            <tr className="linha">vago </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.c1}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.c2}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.c3}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.c4}.png`} className="img" /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.c1}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.c2}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.c3}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.c4}.png`} className="img" alt='' /> </tr>
             
           </td>
   {/* 4º coluna */}
           <td>
              <tr className="linha">vago </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.d1}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.d2}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.d3}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.d4}.png`} className="img" /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.d1}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.d2}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.d3}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.d4}.png`} className="img" alt='' /> </tr>
            
           </td>
   {/* 5º coluna */}
           <td>
             <tr className="linha">vago </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.e1}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.e2}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.e3}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.e4}.png`} className="img" /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.e1}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.e2}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.e3}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.e4}.png`} className="img" alt='' /> </tr>
           
           </td>
   {/* 6º coluna */}
           <td>
             <tr className="linha">vago </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.f1}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.f2}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.f3}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.f4}.png`} className="img" /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.f1}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.f2}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.f3}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.f4}.png`} className="img" alt='' /> </tr>
            
           </td>
   {/* 1º coluna */}
           <td>
             <tr className="linha">vago </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.g1}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.g2}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.g3}.png`} className="img" /> </tr>
-            <tr className="linha"><input type="image" src={`img/${tabela.g4}.png`} className="img" /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.g1}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.g2}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.g3}.png`} className="img" alt='' /> </tr>
+            <tr className="linha"><input type="image" src={`img/${tabela.g4}.png`} className="img" alt='' /> </tr>
            
           </td>
         </table>

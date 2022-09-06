@@ -1,12 +1,10 @@
-import './style.css'
+import {Container} from './styles'
 
-
-function Ball (){
-    return(
-      <div className='container'>
-       
-      </div>
-    )
+interface BallProps{
+  backgroundColor: string;  
 }
+const Ball: React.FC<BallProps> = ({backgroundColor}) =>(
+<Container backgroundColor={backgroundColor}></Container>
+)
 
 export default Ball

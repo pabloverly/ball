@@ -1,5 +1,5 @@
 import React from 'react';
-import Table from '../../src/Components/index'
+import Table from '../Components/Table/index'
 import './App.css';
 
 function App() {
@@ -9,9 +9,8 @@ function App() {
         a1={'verde'} 
         a2={'verde'} 
         a3={'verde'}
-        a4={'verde'}
-      
-
+        a4={'verde'}     
+        
         b1={'preto'} 
         b2={'preto'} 
         b3={'preto'}
@@ -49,7 +48,7 @@ function App() {
         
       />
 
-    <Table 
+    <Table     
         a1={'azul'} 
         a2={'azul'} 
         a3={'azul'}

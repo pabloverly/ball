@@ -1,0 +1,14 @@
+.container{
+    display:flex;    
+}
+.table{
+    width:400px;
+    height: 200px;
+}
+.linha{
+    height: 40px;}
+
+.img{
+    height:30px;
+    width:30px;
+}

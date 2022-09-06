@@ -1,6 +1,8 @@
+import {useState} from 'react'
 import './style.css'
 import Ball from '../Ball/index'
 import PlanoFundo from '../PlanoFundo/index'
+
 
 interface ITable{
   a1?: String;
@@ -69,6 +71,8 @@ interface ITable{
 }
 
 function Table (tabela:ITable){
+    const [vago, setVago] = useState<string>('branco');
+    const [atual, setAtual] = useState<string>('azul');
     return(
       <div className='container'>
         <PlanoFundo backgroundImage={'img/fundo.png'}>
@@ -76,8 +80,9 @@ function Table (tabela:ITable){
             <table className="table">
       {/* 1º coluna */}
               <td  >
-              <tr className="linha">vago </tr>
-                <tr className="linha"><Ball backgroundImage={'img/azul.png'} onClick={()=>{alert('teste')}}/></tr>
+              
+                <tr className="linha"><Ball backgroundImage={`img/${vago}.png`} onClick={()=>{setVago('azul')}}/></tr>
+                <tr className="linha"><Ball backgroundImage={`img/${atual}.png`} onClick={()=>{setVago('azul'); setAtual('branco')}}/></tr>
                 <tr className="linha"><Ball backgroundImage={'img/azul.png'} onClick={()=>{alert('teste')}}/></tr>
                 <tr className="linha"><Ball backgroundImage={'img/azul.png'} onClick={()=>{alert('teste')}}/></tr>
                 <tr className="linha"><Ball backgroundImage={'img/azul.png'} onClick={()=>{alert('teste')}}/></tr>
